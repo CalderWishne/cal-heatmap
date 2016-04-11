@@ -6,7 +6,7 @@
  *  Copyright 2014 Wan Qi Chen
  */
 
-//var d3 = typeof require === "function" ? require("d3") : window.d3;
+var d3 = typeof require === "function" ? require("d3") : window.d3;
 
 var CalHeatMap = function() {
 	"use strict";
