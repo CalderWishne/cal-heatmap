@@ -2163,7 +2163,7 @@ CalHeatMap.prototype = {
 	 */
 	getHourDomain: function (d, range) {
 		"use strict";
-		console.log(d);
+		
 		var start = new Date(d.getFullYear(), d.getMonth(), d.getDate(), d.getHours());
 		var stop = null;
 		if (range instanceof Date) {
